@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Retrofit</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_text">Retrofit</string>
+    <string name="submit">Submit</string>
+    <string name="first_question">Is it stone masonry with mud mortar building?(के यो माटोको जोडाईमा ढुङ्गाले बनेको घर हो?)</string>
+    <string name="second_question">Are there only four walls(along four exterior faces) composed
+        of stone masonry with mud mortar?(के यो माटोको जोडाईमा ढुङ्गाले बनेको घरको चारवटा गाराहरुमात्रै (बाहिर देखिने गाराहरु) रहेका छन्?)</string>
+    <string name="third_question">Does the building have significant distortion in any floor diaphragm or significant
+    damage to the longitudinal walls?(घरको लामो पट्टिका गाराहरुमा देखिने किसिमको क्ष्यति भएको छ?)</string>
+    <string name="fourth_question">Does the building exceed two storey plus attic?(के यो घर बुईगल सहितको दुईतल्ला भन्दा बढी उचाईको छ?)</string>
+    <string name="get_image_text">Click to Get Image</string>
+    <string name="title_activity_question">Ask Question</string>
+</resources>

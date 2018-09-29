@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:id="@+id/createP_layout"
+    android:padding="@dimen/dimen_2"
+    android:background="@color/white_color"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_viewRadio"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_2"
+            android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_2"
+        android:text="@string/get_image_text"
+        style="@style/buttonTextStyle"
+        android:onClick="getImage"
+        android:textAllCaps="false"
+        android:textColor="@color/white_color"
+        android:id="@+id/get_image_button"
+        android:background="@drawable/image_button_style"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp">
+        <ImageView
+            android:id="@+id/retrofit_image"
+            android:layout_width="200dp"
+            android:background="@drawable/image_border"
+            android:padding="@dimen/dimen_10"
+            android:visibility="gone"
+            android:layout_height="200dp" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="UploadImage"
+        android:text="@string/submit"
+        android:textSize="12sp"
+        style="@style/buttonTextStyle"
+        android:textAllCaps="false"
+        android:textColor="@color/white_color"
+        android:id="@+id/upload_button"
+        android:background="@drawable/image_button_style"
+        android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
