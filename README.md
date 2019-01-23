@@ -1,10 +1,8 @@
 # Post-Disaster Rapid Response Retrofit: PD3R
 
-*Read this in other languages: [English](README.md)*
-
 Natural disasters have been a determinant factor for the development of civilizations. From landscaping the environment to vanishing entire cities, the forces of nature play an important role in our lives. The impact of these events has been significant, especially when they strike on developing countries. For instance, between 1971 and 1995 Natural Disasters took more than 3 million lives, and affected more than 136 million around the world (HRC,2004). Historical evidences show how vulnerable we are to the power of earthquakes, typhoons, hurricanes, and more. However, our mindset towards Natural Disasters has changed through time as modern society has focused more on the scientific facts rather than supernatural explanations. This change of approach has led to the development of tools that can predict, quantify, and reduce risk. As governments and local authorities implement these new tools, life and economic loss after disasters reduce drastically.
 
-Following Build Change ́s main premise to Build Disaster Resistant Buildings and Change Construction Practices Permanently, PD3R Team ́s main objective is to improve the safety conditions of buildings and reduce human and economic loss after the occurrence of a natural disaster. Now, this is a broad and ambitious objective, so our main specific objectives can be summarized in the following points:
+Following Build Change's main premise to Build Disaster Resistant Buildings and Change Construction Practices Permanently, PD3R Team's main objective is to improve the safety conditions of buildings and reduce human and economic loss after the occurrence of a natural disaster. Now, this is a broad and ambitious objective, so our main specific objectives can be summarized in the following points:
 * Develop a methodology incorporating AI capabilities to enable rapid post-disaster retrofitting once the
 disaster strikes.
 * Train the Image Recognition AI to determine if a house is eligible for retrofitting, by feeding it with a large
@@ -13,8 +11,6 @@ volume of digital images generated through a BIM software, along with some real 
 materials and structural calculations to the context of a particular country or geographic area.
 * Reduce response time to a few days post-disaster, to minimize waiting time to retrofit houses of affected
  people.
-
-[Project website](https://github.com/Build-Change/call_for_code)
 
 ## Getting Started
 
@@ -76,11 +72,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Build Change** -
 
-See also the list of [contributors](https://github.com/Build-Change/call_for_code/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Build-Change/call_for_code/AUTHORS.md) who participated in this project.
 
 ## License
 
-This project is licensed under the Apache 2 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
