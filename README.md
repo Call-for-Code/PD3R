@@ -28,19 +28,24 @@ pip install -r requirements.txt
 ### Convert 
 
 * Resize  and convert images to the OpenCv's Canny edge filter output 
+* ```real_digital_train``` folder contains data for training model and ```real_digital_valid``` contains data for validating model
+* Final outputs are stored in ```numpy_edge``` folder
 ```
 python convert_data.py  
 ```
 
 ### Train
-* Train and make model  using train.py file using the output from above step 
+* Train and make model  using train.py file using the output from above step which are stored in ```numpy_edge``` folder
+* log directory ```logs_digital``` is used for tensorboard to visualize the progress
+* Final model is stored in ```models``` folder
 ```
 python train.py 
 ```
 
 ###  Test your model
 
-* Run the below python script to classify your test images based on our pre-trained model.
+* Run the below python script to classify your test images based on our pre-trained model and plot confusion matrix .
+* Load model from ```models``` folder and test data from ```numpy_edge``` folder
 
 
 ```
