@@ -1,0 +1,1 @@
+Trained Model is stored in models folder

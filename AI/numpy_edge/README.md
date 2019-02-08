@@ -1,0 +1,1 @@
+OpenCv's Canny edge filter output is stored in numpy_edge folder

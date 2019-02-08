@@ -1,0 +1,1 @@
+log directory logs_digital is used for tensorboard to visualize the progress
