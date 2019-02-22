@@ -1,10 +1,10 @@
 # Code of Conduct
 
-P3DR has a [Code of Conduct][] that *all* contributors are
+PD3R has a [Code of Conduct][] that *all* contributors are
 expected to follow. This code describes the *minimum* behavior expectations
 for all contributors.
 
-As a contributor to P3DR, how you choose to act and interact towards your
+As a contributor to PD3R, how you choose to act and interact towards your
 fellow contributors, as well as to the community, will reflect back not only
 on yourself but on the project as a whole. The Code of Conduct is designed and
 intended, above all else, to help establish a culture within the project that
@@ -22,7 +22,7 @@ disagreements are in good faith and everyone is working towards a common goal.
 
 ## Bad actors
 
-All contributors to P3DR tacitly agree to abide by both the letter and
+All contributors to PD3R tacitly agree to abide by both the letter and
 spirit of the [Code of Conduct][]. Failure, or unwillingness, to do so will
 result in contributions being respectfully declined.
 

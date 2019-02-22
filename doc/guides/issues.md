@@ -13,7 +13,7 @@ For any issue, there are fundamentally three ways an individual can
 contribute:
 
 1. By opening the issue for discussion: For instance, if you believe that you
-   have uncovered a bug in P3DR, creating a new issue in the `Build-Change/call_for_code`
+   have uncovered a bug in PD3R, creating a new issue in the `Build-Change/call_for_code`
    issue tracker is the way to report it.
 2. By helping to triage the issue: This can be done either by providing
    supporting details (a test case that demonstrates a bug), or providing
@@ -63,4 +63,4 @@ In the vast majority of cases, issues are resolved by opening a Pull Request.
 The process for opening and reviewing a Pull Request is similar to that of
 opening and triaging issues, but carries with it a necessary review and approval
 workflow that ensures that the proposed changes meet the minimal quality and
-functional guidelines of the P3DR project.
+functional guidelines of the PD3R project.
