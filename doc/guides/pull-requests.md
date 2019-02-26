@@ -26,7 +26,7 @@ so that you can make the actual changes. This is where we will start.
   * [Respect the minimum wait time for comments](#respect-the-minimum-wait-time-for-comments)
   * [Abandoned or Stalled Pull Requests](#abandoned-or-stalled-pull-requests)
   * [Approving a change](#approving-a-change)
-  * [Accept that there are different opinions about what belongs in P3DR](#accept-that-there-are-different-opinions-about-what-belongs-in-project-owl)
+  * [Accept that there are different opinions about what belongs in PD3R](#accept-that-there-are-different-opinions-about-what-belongs-in-project-owl)
   * [Performance is not everything](#performance-is-not-everything)
   * [Continuous Integration Testing](#continuous-integration-testing)
 * [Notes](#notes)
@@ -38,7 +38,7 @@ so that you can make the actual changes. This is where we will start.
 
 ## Dependencies
 
-More details to come on P3DR dependencies. In case of doubt, open an issue in the
+More details to come on PD3R dependencies. In case of doubt, open an issue in the
 [issue tracker](https://github.com/Build-Change/call_for_code/issues/).
 
 ## Setting up your local environment
@@ -87,7 +87,7 @@ $ git checkout -b my-branch -t upstream/master
 
 ### Step 3: Code
 
-P3DR does not yet have a style guide.
+PD3R does not yet have a style guide.
 
 ### Step 4: Commit
 
@@ -147,7 +147,7 @@ Fixes: https://github.com/Build-Change/call_for_code/issues/1337
 Refs: http://eslint.org/docs/rules/space-in-parens.html
 ```
 
-If you are new to contributing to P3DR, please try to do your best at
+If you are new to contributing to PD3R, please try to do your best at
 conforming to these guidelines, but do not worry if you get something wrong.
 One of the existing contributors will help get things situated and the
 contributor landing the Pull Request will ensure that everything follows
@@ -221,7 +221,7 @@ $ git push --force-with-lease origin my-branch
 **Important:** The `git push --force-with-lease` command is one of the few ways
 to delete history in `git`. Before you use it, make sure you understand the
 risks. If in doubt, you can always ask for guidance in the Pull Request or on the
-[P3DR Slack workspace].
+[PD3R Slack workspace].
 
 If you happen to make a mistake in any of your commits, do not worry. You can
 amend the last commit (for example if you want to change the commit log).
@@ -261,7 +261,7 @@ unhelpful is likely safe to ignore.
 ### Step 10: Landing
 
 In order to land, a Pull Request needs to be reviewed and [approved][] by
-at least two P3DR Collaborators (one Collaborator approval is enough if the
+at least two PD3R Collaborators (one Collaborator approval is enough if the
 pull request has been open for more than 7 days) and pass a
 [CI (Continuous Integration) test run][]. After that, as long as there are no
 objections from other contributors, the Pull Request can be merged. If you find
@@ -277,7 +277,7 @@ your name on it. Congratulations and thanks for your contribution!
 
 ## Reviewing Pull Requests
 
-All P3DR contributors who choose to review and provide feedback on Pull
+All PD3R contributors who choose to review and provide feedback on Pull
 Requests have a responsibility to both the project and the individual making the
 contribution. Reviews and feedback must be helpful, insightful, and geared
 towards improving the contribution as opposed to simply blocking it. If there
@@ -304,8 +304,8 @@ perfect grammar, or exact style matches. Do not succumb to that temptation.
 
 Focus first on the most significant aspects of the change:
 
-1. Does this change make sense for P3DR?
-2. Does this change make P3DR better, even if only incrementally?
+1. Does this change make sense for PD3R?
+2. Does this change make PD3R better, even if only incrementally?
 3. Are there clear bugs or larger scale issues that need attending to?
 4. Is the commit message readable and correct? If it contains a breaking change
    is it clear enough?
@@ -318,7 +318,7 @@ change over time. The first impression you give to a new contributor never does.
 
 Nits (requests for small changes that are not essential) are fine, but try to
 avoid stalling the Pull Request. Most nits can typically be fixed by the
-P3DR Collaborator landing the Pull Request but they can also be an
+PD3R Collaborator landing the Pull Request but they can also be an
 opportunity for the contributor to learn a bit more about the project.
 
 It is always good to clearly indicate nits when you comment: e.g.
@@ -332,8 +332,8 @@ with the appropriate reason to keep the conversation flow concise and relevant.
 
 Be aware that *how* you communicate requests and reviews in your feedback can
 have a significant impact on the success of the Pull Request. Yes, we may land
-a particular change that makes P3DR better, but the individual might just
-not want to have anything to do with P3DR ever again. The goal is not just
+a particular change that makes PD3R better, but the individual might just
+not want to have anything to do with PD3R ever again. The goal is not just
 having good code.
 
 ### Respect the minimum wait time for comments
@@ -363,7 +363,7 @@ commit.
 
 ### Approving a change
 
-Any P3DR core Collaborator (any GitHub user with commit rights in the
+Any PD3R core Collaborator (any GitHub user with commit rights in the
 `Build-Change/call_for_code` repository) is authorized to approve any other contributor's
 work. Collaborators are not permitted to approve their own Pull Requests.
 
@@ -392,32 +392,32 @@ to block the PR from landing. When doing so, explain *why* you believe the
 Pull Request should not land along with an explanation of what may be an
 acceptable alternative course, if any.
 
-### Accept that there are different opinions about what belongs in P3DR
+### Accept that there are different opinions about what belongs in PD3R
 
 Opinions on this vary, even among the members of the Technical Steering
 Committee.
 
-One general rule of thumb is that if P3DR itself needs it (due to historic
-or functional reasons), then it belongs in P3DR.
+One general rule of thumb is that if PD3R itself needs it (due to historic
+or functional reasons), then it belongs in PD3R.
 
 Also, functionality that either cannot be implemented outside of core in any
 reasonable way, or only with significant pain.
 
 It is not uncommon for contributors to suggest new features they feel would
-make P3DR better. These may or may not make sense to add, but as with all
+make PD3R better. These may or may not make sense to add, but as with all
 changes, be courteous in how you communicate your stance on these. Comments
 that make the contributor feel like they should have "known better" or
 ridiculed for even trying run counter to the [Code of Conduct][].
 
 ### Performance is not everything
 
-P3DR has always optimized for speed of execution. If a particular change
-can be shown to make some part of P3DR faster, it's quite likely to be
+PD3R has always optimized for speed of execution. If a particular change
+can be shown to make some part of PD3R faster, it's quite likely to be
 accepted. Claims that a particular Pull Request will make things faster will
 almost always be met by requests for performance [benchmark results][] that
 demonstrate the improvement.
 
-That said, performance is not the only factor to consider. P3DR also
+That said, performance is not the only factor to consider. PD3R also
 optimizes in favor of not breaking existing code in the ecosystem, and not
 changing working functional code just for the sake of changing.
 
@@ -431,7 +431,7 @@ feedback.
 ### Continuous Integration Testing
 
 Every Pull Request needs to be tested
-to make sure that it works on the platforms that P3DR
+to make sure that it works on the platforms that PD3R
 supports. This is currently done manually, but automated testing
 may come soon.
 
@@ -468,7 +468,7 @@ because the reviewers have hit the buttons before.
 ### CI Testing
 
 Every Pull Request needs to be tested
-to make sure that it works on the platforms that P3DR
+to make sure that it works on the platforms that PD3R
 supports. This is currently done manually, but automated testing
 may come soon.
 
