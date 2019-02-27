@@ -53,15 +53,10 @@ val_dataset = tf.data.Dataset.from_tensor_slices((X_val, y_val))
 # Making the dataset, batch size of 10
 val_dataset = val_dataset.batch(10).repeat()
 
-# setting Tensorflow session to be same of Keras's Session
-sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
-K.set_session(sess)
-
 # Defining name of the to be saved model
 NAME = "digital-224px-p-dropout-mixed-time-{}".format(int(time.time()))
 # Setting log directory for tensorboard to visualize the progress
 tensorboard = TensorBoard(log_dir='logs_digital/{}'.format(NAME))
-
 
 # Model Construction
 model = keras.models.Sequential()
