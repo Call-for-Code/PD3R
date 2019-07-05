@@ -54,7 +54,7 @@ python evaluate_confusion_matrix.py
 ```
 ## Deployment
 
-"Android Application" folder contains the android code which takes the picture and sends to the AI server and show the final output. To change the api for your own server go to MainApplication.java file and change "BASE_URL" value.
+"Android Application" folder contains the android code which takes the picture and sends to the AI server and show the final output. To change the api for your own server go to MainActivity.java file and change "BASE_URL" value.
 ie :  ``` public static String BASE_URL = "Your API Code HERE"; ```
 
 ## Built With
