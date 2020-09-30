@@ -12,9 +12,12 @@ materials and structural calculations to the context of a particular country or 
 * Reduce response time to a few days post-disaster, to minimize waiting time to retrofit houses of affected
  people.
 
+## Related GitHub repos
+
+* [PD3R-Laravel-Backend](https://github.com/Code-and-Response/PD3R-Laravel-Backend) - This is the backend for the API to the machine learning model. It's accessed by the mobile app.
+* [PD3R-React-Native-App](https://github.com/Code-and-Response/PD3R-React-Native-App) - This is the end-user mobile app for the homeowner.
+
 ## Getting Started
-
-
 
 ### Prerequisites
 
